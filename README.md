@@ -25,17 +25,4 @@ Ideal for projects combining **mathematics**, **parallel processing**, and **dis
 - Scalable architecture with pluggable worker nodes.
 - Optional visualization of the original function and its Fourier approximation.
 
-## Fourier Series Formula
 
-For a periodic function \( f(x) \) defined on \([-L, L]\), the Fourier series is:
-
-\[
-f(x) \approx \frac{a_0}{2} + \sum_{n=1}^{N} \left(a_n \cos\left(\frac{n\pi x}{L}\right) + b_n \sin\left(\frac{n\pi x}{L}\right)\right)
-\]
-
-where:
-
-\[
-a_n = \frac{1}{L} \int_{-L}^{L} f(x) \cos\left(\frac{n\pi x}{L}\right) dx,\quad
-b_n = \frac{1}{L} \int_{-L}^{L} f(x) \sin\left(\frac{n\pi x}{L}\right) dx
-\]
