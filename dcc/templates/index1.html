@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distributed Fourier Series</title>
+  </head>
+  <body>
+    <h2>Fourier Series Calculator</h2>
+    <form id="fourier-form">
+      <label for="function">Function (in terms of x):</label>
+      <input type="text" id="function" required /><br />
+
+      <label for="T">Period (T):</label>
+      <input type="number" id="T" step="0.01" required /><br />
+
+      <label for="n_terms">Number of Terms (n):</label>
+      <input type="number" id="n_terms" required /><br />
+
+      <button type="submit">Compute</button>
+    </form>
+
+    <h3>Results:</h3>
+    <pre id="results"></pre>
+
+    <h2>Fourier Series Visualization:</h2>
+    <img
+      id="graphImage"
+      src=""
+      alt="Graph will be displayed here"
+      width="600"
+    />
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>
